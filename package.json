@@ -1,0 +1,27 @@
+{
+  "name": "bhavishya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananditavishnoi/Bhavishya-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananditavishnoi/Bhavishya-Website/issues"
+  },
+  "homepage": "https://github.com/ananditavishnoi/Bhavishya-Website#readme"
+}

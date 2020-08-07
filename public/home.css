@@ -1,0 +1,82 @@
+body {
+    background: #114B5F;
+}
+
+.humanity {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.main-heading {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    color: #6FCF97;
+}
+
+.click-to-volunteer {
+    position: absolute;
+    width: 234px;
+    height: 38px;
+    left: 605px;
+    top: 715px;
+    background: rgba(136, 212, 152, 0.9);
+    border-radius: 10px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #114B5F;
+}
+
+.heading-bhavishy {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.initiative {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Green 3 */
+    color: #6FCF97;
+}
+
+p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EEEEEE;
+}

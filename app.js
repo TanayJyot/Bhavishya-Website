@@ -9,6 +9,10 @@ app.get("/", function(req, res) {
     res.render("home")
 })
 
+app.get("/projects", function(req, res) {
+    res.render("projects")
+})
+
 app.listen(3007, function() {
     console.log("success is a crime")
 })

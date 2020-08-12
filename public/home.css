@@ -8,10 +8,10 @@ body {
 
 .humanity {
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 117px;
     text-align: center;
     color: #EEEEEE;
@@ -21,7 +21,7 @@ body {
     font-family: 'Montserrat', 'san-serif';
     font-style: normal;
     font-weight: 300;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 117px;
     text-align: center;
     color: #6FCF97;
@@ -32,7 +32,7 @@ body {
     height: 38px;
     background: rgba(136, 212, 152, 0.9);
     border-radius: 10px;
-    font-family: 'Work Sans';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -42,7 +42,7 @@ body {
 }
 
 .heading-bhavishy {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 72px;
@@ -51,8 +51,17 @@ body {
     color: #EEEEEE;
 }
 
+.contact-us {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 88px;
+    text-align: center;
+    color: #6FCF97;
+}
+
 .initiative {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -63,7 +72,7 @@ body {
 }
 
 p {
-    font-family: Work Sans;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

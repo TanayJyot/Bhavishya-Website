@@ -1,0 +1,30 @@
+.projects-heading {
+    font-family: 'Montserrat', 'sans serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 88px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    /* Green 3 */
+    color: #6FCF97;
+}
+
+.plantation-drive {
+    font-family: 'Montserrat', 'sans serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    /* Gray 6 */
+    color: #F2F2F2;
+}
+
+.pic1 {
+    width: 607px;
+    height: 371px;
+}

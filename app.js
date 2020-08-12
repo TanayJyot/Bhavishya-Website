@@ -13,6 +13,13 @@ app.get("/projects", function(req, res) {
     res.render("projects")
 })
 
+app.get("/plantation-drive", (req, res) => {
+    res.render("plantation-drive")
+})
+
+app.get("/mission-roshni", (req, res) => {
+    res.render("mission-roshni")
+})
 app.listen(3007, function() {
     console.log("success is a crime")
 })

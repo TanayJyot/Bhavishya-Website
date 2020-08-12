@@ -1,17 +1,15 @@
-.projects-heading {
-    font-family: 'Montserrat', 'sans serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 70px;
-    line-height: 88px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    /* Green 3 */
-    color: #6FCF97;
-}
-
-.plantation-drive {
+ .projects-heading {
+     font-family: 'Montserrat', 'sans serif';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 70px;
+     line-height: 88px;
+     display: flex;
+     align-items: flex-end;
+     text-align: center;
+     color: #6FCF97;
+ }
+ /* .plantation-drive {
     font-family: 'Montserrat', 'sans serif';
     font-style: normal;
     font-weight: normal;
@@ -20,11 +18,64 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    /* Gray 6 */
+
     color: #F2F2F2;
 }
 
 .pic1 {
     width: 607px;
     height: 371px;
-}
+}  */
+ 
+ .feature-btn {
+     color: white;
+     font-size: 17px;
+     max-width: 200px;
+     text-align: left;
+ }
+ 
+ .feature-btn:hover {
+     text-decoration: underline;
+ }
+ 
+ A:hover {
+     color: #6FCF97;
+ }
+ 
+ .feature-img {
+     width: 295px;
+ }
+ 
+ .desc {
+     color: var(--color-text);
+     font-size: 1.125rem;
+     font-weight: 300;
+     line-height: 1.75rem;
+     opacity: 0.9;
+     font-size: 25px;
+     margin-top: 20px;
+     color: #6FCF97;
+     font-family: 'Work Sans', 'sans serif';
+ }
+ 
+ .feature-title {
+     font-weight: 600;
+     line-height: 1.25;
+     font-size: 42px;
+     color: white;
+     font-family: 'Montserrat', 'sans serif';
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .feature-title {
+         font-size: 30px;
+     }
+     .desc {
+         font-size: 15px;
+     }
+ }
+ 
+ hr {
+     background-color: white;
+     width: 80%;
+ }

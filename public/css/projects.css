@@ -44,10 +44,10 @@
  
  .feature-img {
      width: 295px;
+     height: 200px;
  }
  
  .desc {
-     color: var(--color-text);
      font-size: 1.125rem;
      font-weight: 300;
      line-height: 1.75rem;

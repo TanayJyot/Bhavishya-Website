@@ -28,7 +28,6 @@ body {
 }
 
 .click-to-volunteer {
-    width: 234px;
     height: 38px;
     background: rgba(136, 212, 152, 0.9);
     border-radius: 10px;
@@ -79,4 +78,60 @@ p {
     line-height: 28px;
     text-align: center;
     color: #EEEEEE;
+}
+
+.img-us {
+    width: 684px;
+    height: 359px;
+}
+
+.leaf {
+    width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .heading-bhavishy,
+    .main-heading,
+    .humanity,
+    .initiative {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .main-heading {
+        font-size: 40px;
+    }
+    .img-us {
+        width: 400px;
+        height: auto;
+    }
+    .leaf {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading-bhavishy,
+    .main-heading,
+    .humanity,
+    .initiative {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .img-us {
+        width: 250px;
+        height: auto;
+    }
+    .click-to-volunteer {
+        font-size: 13px;
+        ;
+    }
+    .leaf {
+        width: 250px;
+    }
 }

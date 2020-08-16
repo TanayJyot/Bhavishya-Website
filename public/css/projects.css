@@ -9,23 +9,6 @@
      text-align: center;
      color: #6FCF97;
  }
- /* .plantation-drive {
-    font-family: 'Montserrat', 'sans serif';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 59px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-
-    color: #F2F2F2;
-}
-
-.pic1 {
-    width: 607px;
-    height: 371px;
-}  */
  
  .feature-btn {
      color: white;
@@ -66,16 +49,18 @@
      font-family: 'Montserrat', 'sans serif';
  }
  
+ body {
+     background-color: #114B5F;
+ }
+ 
  @media screen and (max-width: 768px) {
      .feature-title {
          font-size: 30px;
      }
      .desc {
-         font-size: 15px;
+         font-size: 19px;
      }
- }
- 
- hr {
-     background-color: white;
-     width: 80%;
+     .projects-heading {
+         font-size: 50px;
+     }
  }

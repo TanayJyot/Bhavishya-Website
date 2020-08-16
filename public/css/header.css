@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .btn-abt,
+    .btn-projects {
+        font-size: 12px;
+    }
+    .logo {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn-abt,
+    .btn-projects {
+        font-size: 12px;
+    }
+    .logo {
+        width: 40px;
+    }
+}
+
+body {
+    background-color: #114B5F;
+}
+
+.btn-projects {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #C6DABF;
+    background-color: #114B5F;
+    border: 0
+}
+
+.btn-abt {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    padding-right: 14px;
+    text-align: center;
+    color: #C6DABF;
+    background-color: #114B5F;
+    border: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.logo {
+    width: 80px;
+}

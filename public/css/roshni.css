@@ -7,3 +7,12 @@
     text-align: center;
     color: #6FCF97;
 }
+
+@media screen and (max-width: 768px) {
+    .main-heading {
+        font-size: 50px;
+    }
+    p {
+        font-size: 19px;
+    }
+}

@@ -17,3 +17,16 @@ p {
     text-align: left;
     color: #EEEEEE;
 }
+
+body {
+    background-color: #114B5F;
+}
+
+@media screen and (max-width: 768px) {
+    .main-heading {
+        font-size: 50px;
+    }
+    p {
+        font-size: 19px;
+    }
+}

@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+const port = process.env.PORT || 8080;
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
@@ -22,7 +23,19 @@ app.get("/mission-roshni", (req, res) => {
     res.render("mission-roshni")
 })
 
+app.get("/fundraiser", (req, res) => {
+    res.render("fundraiser")
+})
 
-app.listen(3007, function() {
+app.get("/shiksha-kit", (req, res) => {
+    res.render("shiksha-kit")
+})
+
+
+app.get("/mask-workshop", (req, res) => {
+    res.render("mask-workshop")
+})
+
+app.listen(port, function() {
     console.log("success is a crime")
 })

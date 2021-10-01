@@ -9,8 +9,8 @@ body {
 .saying {
     font-family: 'Montserrat', 'san-serif';
     font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
+    font-weight: 300;
+    font-size: 65px;
     line-height: 100px;
     text-align: center;
     color: #6FCF97;
@@ -21,7 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 65px;
     line-height: 117px;
     text-align: center;
     color: #EEEEEE;

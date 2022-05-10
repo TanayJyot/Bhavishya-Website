@@ -36,7 +36,9 @@ app.get("/mask-workshop", (req, res) => {
     res.render("mask-workshop")
 })
 
-app.get()
+app.get("/shiksha-weekends", (req, res) => {
+    res.render("shiksha-weekends")
+})
 
 app.listen(port, function() {
     console.log("success is a crime")

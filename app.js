@@ -40,6 +40,11 @@ app.get("/shiksha-weekends", (req, res) => {
     res.render("shiksha-weekends")
 })
 
+
+app.get("/mehetwakansha", (req, res) => {
+    res.render("mehetwakansha")
+})
+
 app.listen(port, function() {
     console.log("success is a crime")
 })
